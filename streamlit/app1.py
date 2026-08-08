@@ -12,7 +12,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUTS_DIR = os.path.join(BASE_DIR, "..", "outputs")
 
 
-df = pd.read_csv(os.path.join(OUTPUTS_DIR, "final_retail_data.csv"))
+df = pd.read_csv(os.path.join(OUTPUTS_DIR, "final_retail_data_sample.csv"))
 segments = pd.read_csv(os.path.join(OUTPUTS_DIR, "customer_segments.csv"))
 inventory = pd.read_csv(os.path.join(OUTPUTS_DIR, "inventory_risk.csv"))
 forecast = pd.read_csv(os.path.join(OUTPUTS_DIR, "demand_forecast.csv"))
